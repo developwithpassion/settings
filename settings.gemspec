@@ -1,10 +1,7 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib",__FILE__)
-require "settings/version"
-
 Gem::Specification.new do |s|
   s.name        = "settings"
-  s.version     = Settings::VERSION
+  s.version     = '0.0.3'
   s.platform    = Gem::Platform::RUBY
   s.license     = 'MIT'
   s.authors     = ["Develop With Passion®"]

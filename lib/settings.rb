@@ -1,6 +1,5 @@
 module Settings;end
 
-require_relative 'settings/version'
 require_relative 'settings/setting_macro'
 require_relative 'settings/settings'
 require_relative 'settings/config'

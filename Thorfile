@@ -7,17 +7,17 @@ class Default < Thor
   include Thor::RakeCompat
   Bundler::GemHelper.install_tasks
 
-  desc "build", "Build settings-#{Settings::VERSION}.gem into the pkg directory"
+  desc "build", "Build settings gem into the pkg directory"
   def build
     Rake::Task["build"].execute
   end
 
-  desc "install", "Build and install settings-#{Settings::VERSION}.gem into system gems"
+  desc "install", "Build and install settings gem into system gems"
   def install
     Rake::Task["install"].execute
   end
 
-  desc "release", "Create tag v#{Settings::VERSION} and build and push settings-#{Settings::VERSION}.gem to Rubygems"
+  desc "release", "Create tag and build and push settings gem to Rubygems"
   def release
     Rake::Task["release"].execute
   end
