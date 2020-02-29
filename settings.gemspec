@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.homepage    = "http://www.developwithpassion.com"
   s.summary     = %q{Really simple setting mechanism}
   s.description = %q{Simple setting mechanism}
-  s.rubyforge_project = "settings"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
